@@ -1,29 +1,31 @@
-Bheema is a theme suitabel for image heavy journal kind of websites. 
+# Jekyll::Paginate
 
-Demo: [http://webjeda.com/ashwath/](http://webjeda.com/ashwath/)
+Default pagination generator for Jekyll.
 
+[![Build Status](https://secure.travis-ci.org/jekyll/jekyll-paginate.svg?branch=master)](https://travis-ci.org/jekyll/jekyll-paginate)
 
 ## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
 
+Add this line to your application's Gemfile:
 
-## Screenshots
-Default theme:
+    gem 'jekyll-paginate'
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Default.png)
+And then execute:
 
-Color schemes (Full version)
+    $ bundle
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Purple.png)
+Or install it yourself as:
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Blood.png)
+    $ gem install jekyll-paginate
 
-![ashwath jekyll theme](http://webjeda.com/ashwath/images/Mango.png)
+## Usage
 
+Once the gem is installed on your system, Jekyll will auto-require it. Just set the following configuration
 
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+## Contributing
 
-## License
-MIT License
+1. Fork it ( http://github.com/jekyll/jekyll-paginate/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
